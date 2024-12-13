@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "beyond-blank"
+version = "0.1.0"
+description = ""
+authors = ["Yuwei Yan <yyan791@connect.hkust-gz.edu.cn>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+pillow = "^11.0.0"
+transformers = "^4.46.2"
+openai = "^1.54.3"
+speechrecognition = "^3.11.0"
+pydub = "^0.25.1"
+torch = "^2.5.1"
+plotly = "^5.24.1"
+matplotlib = "^3.9.3"
+assemblyai = "^0.35.1"
+opencv-python = "^4.10.0.84"
+sounddevice = "^0.5.1"
+soundfile = "^0.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
